@@ -151,6 +151,12 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
+.testimonial p{
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
 
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -169,6 +175,12 @@ body{
 body{
     width: 100%;
     overflow-x: hidden;
+}
+.testimonial p{
+    text-align: center;
+}
+footer {
+    text-align: center;
 }
   
 }
