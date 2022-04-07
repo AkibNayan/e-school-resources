@@ -152,7 +152,7 @@ body{
     width: 100%;
 }
 html{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .testimonial p{
     text-align: center;
@@ -180,7 +180,7 @@ body{
     overflow-x: hidden;
 }
 html{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .testimonial p{
     text-align: center;
