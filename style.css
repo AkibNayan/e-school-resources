@@ -114,9 +114,6 @@ header{
     width: 30%;
     margin-left: 120px;
 }
-.testimonial p{
-    width: 80%;
-}
 footer{
     background-color: #282531;
     color: #fff;
@@ -152,8 +149,13 @@ footer small{
 }
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
     width: 100%;
+}
+.testimonial p{
+    text-align: center;
+}
+footer {
+    text-align: center;
 }
 
 }
@@ -173,7 +175,12 @@ body{
 body{
     width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+}
+.testimonial p{
+    text-align: center;
+}
+footer {
+    text-align: center;
 }
   
 }
