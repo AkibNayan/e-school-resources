@@ -151,6 +151,9 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
+html{
+    overflow: hidden;
+}
 .testimonial p{
     text-align: center;
 }
@@ -175,6 +178,9 @@ footer {
 body{
     width: 100%;
     overflow-x: hidden;
+}
+html{
+    overflow: hidden;
 }
 .testimonial p{
     text-align: center;
