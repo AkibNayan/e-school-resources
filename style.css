@@ -4,3 +4,151 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Rubik', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header{
+    background-color: #F0FFF0;
+}
+.navbar img{
+    height: 34px;
+    width: 112px;
+    left: 35px;
+    top: 3px;
+    border-radius: 0px;
+}
+.navbar ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.navbar button{
+    border-radius: 25px;
+}
+.nav-link {
+    margin-right: 10px;
+}
+.banner{
+    height: 500px;
+    background-color: #F0FFF0;
+}
+.banner h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.banner h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner span{
+    color: #21B573;
+}
+.banner p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #fff;
+    background-color: #21B573;   
+    padding: 12px 26px;
+    border: none;
+    border-radius: 31px;
+}
+.feature{
+    margin-top: 50px;
+}
+.book img{
+    width: 30%;
+}
+.book{
+    background-color: #F8FFFB;
+    align-items: center;
+}
+.book img{
+    margin-top: 50px;
+}
+.students{
+    background: #FFFFFF !important;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.course{
+    margin-top: 50px;
+}
+.course h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.course button{
+    border-radius: 25px;
+}
+.course .card{
+    box-shadow: 5px 5px 10px gray;
+}
+.testimonial{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial h4{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.testimonial img{
+    width: 30%;
+    margin-left: 120px;
+}
+.testimonial p{
+    width: 80%;
+}
+footer{
+    background-color: #282531;
+    color: #fff;
+    padding-top: 50px;
+}
+footer h5{
+    font-family: 'Poppins', sans-serif;
+}
+footer li{
+    list-style: none;
+    line-height: 27px;
+}
+footer ul{
+    padding-left: 0px;
+}
+footer small{
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+.banner{
+    height: 645px;
+    text-align: center;
+}
+.banner h1{
+    font-size: 33px;
+}
+.course .card-body{
+    text-align: center;
+}
+
+}
