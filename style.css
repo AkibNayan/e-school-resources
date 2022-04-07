@@ -152,7 +152,6 @@ footer small{
 }
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
     width: 100%;
 }
 
@@ -173,7 +172,6 @@ body{
 body{
     width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
   
 }
