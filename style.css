@@ -150,5 +150,30 @@ footer small{
 .course .card-body{
     text-align: center;
 }
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+.banner{
+    height: 755px;
+    text-align: center;
+}
+.banner h1{
+    font-size: 33px;
+}
+.course .card-body{
+    text-align: center;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+  
 }
